@@ -1,2 +1,6 @@
+# Sys files
+/sys/devices(/platform)?/soc/[a-z0-9]+\.qcom,jpeg/video4linux/video[0-9]+/name(/.*)?    u:object_r:sysfs_graphics:s0
+/sys/kernel/boot_wlan(/.*)?                                                             u:object_r:sysfs_wifi:s0
+
 # Light HAL
 /vendor/bin/hw/android\.hardware\.light@2\.0-service\.sdm660-common   u:object_r:hal_light_default_exec:s0
